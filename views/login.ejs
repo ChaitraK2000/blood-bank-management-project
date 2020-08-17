@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blood donation</title>
+    <link rel="icon" href="images/giphy.gif">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/iconic/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" type="text/css" href="css/utils.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+
+</head>
+
+<body style="background-image: url(images/bg-02.jpg);height: 700px;width: 100%">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index"> Blood Donation <i class="icon-heart" aria-hidden="true"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item "><a href="index" class="nav-link">Home</a></li>
+                    <li class="nav-item ">
+                        <a href="info" class="nav-link"><span>INFO</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="admin" class="nav-link"><span>Admin login</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="patient" class="nav-link"><span>Patient login</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="login" class="nav-link"><span>DonorLogin</span></a>
+                    </li>
+                    <li class="nav-item cta">
+                        <a href="register" class="nav-link"><span>DonorSignup</span></a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <!-- END nav -->
+
+
+    <div class="py-3 wrap-login100 bg-white pcontainInnerHoriz">
+        <form class="login100-form validate-form bg-white" method="POST" action="/login">
+            <!--Title-->
+            <span class="pb-5 pt-3 login100-form-title">
+                Sign In
+            </span>
+            <!--End Title-->
+            <!--Inputs-->
+            <div class="wrap-input100 validate-input m-b-20" data-validate="Enter username or email">
+                <input class="input100" type="text" name="user" placeholder="username" id="1" required>
+                <span id="lblError" style="color:black"></span>
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 validate-input m-b-25" data-validate="Enter password">
+                <input class="input100" type="password" name="pass" placeholder="password" id="3" required>
+                <span id="2" style="color:black"></span>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="container-login100-form-btn pt-2">
+                <button class="login100-form-btn btn" id="btnValidate" value="login">
+                    Login
+                </button>
+            </div>
+
+            <!--<div class="container-login100-form-btn pt-2">
+                    <input type="button" id="btnValidate" value="login" onclick="myfunction();" />
+                </div>-->
+            <!--End Login with social media-->
+        </form>
+    </div>
+    </div>
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00" /></svg></div>
+
+
+    <script(src=' /js1/views/login.js')>
+    </script>
+        <script(src=' /js1/controllers/loginController.js')>
+        </script>
+            <script(src=' /js1/form-validators/loginValidator.js')>
+            </script>
+                <script(src=' /js1/form-validators/emailValidator.js')>
+                </script>
+
+
+
+
+
+                    <script src="js/jquery.min.js"></script>
+                    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+                    <script src="js/popper.min.js"></script>
+                    <script src="js/bootstrap.min.js"></script>
+                    <script src="js/jquery.easing.1.3.js"></script>
+                    <script src="js/jquery.waypoints.min.js"></script>
+                    <script src="js/jquery.stellar.min.js"></script>
+                    <script src="js/owl.carousel.min.js"></script>
+                    <script src="js/jquery.magnific-popup.min.js"></script>
+                    <script src="js/aos.js"></script>
+                    <script src="js/jquery.animateNumber.min.js"></script>
+                    <script src="js/bootstrap-datepicker.js"></script>
+                    <script src="js/jquery.timepicker.min.js"></script>
+                    <script src="js/particles.min.js"></script>
+                    <script src="js/particle.js"></script>
+                    <script src="js/scrollax.min.js"></script>
+                    <script
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+                    <script src="js/google-map.js"></script>
+                    <script src="js/main.js"></script>
+                    <script src="js/login.js"></script>
+                    <script type="text/javascript">
+                        function IsValidEmail(email) {
+                            //Check minimum valid length of an Email.
+                            if (email.length <= 2) {
+                                return false;
+                            }
+                            //If whether email has @ character.
+                            if (email.indexOf("@") == -1) {
+                                return false;
+                            }
+
+                            var parts = email.split("@");
+                            var dot = parts[1].indexOf(".");
+                            var len = parts[1].length;
+                            var dotSplits = parts[1].split(".");
+                            var dotCount = dotSplits.length - 1;
+
+
+                            //Check whether Dot is present, and that too minimum 1 character after @.
+                            if (dot == -1 || dot < 2 || dotCount > 2) {
+                                return false;
+                            }
+
+                            //Check whether Dot is not the last character and dots are not repeated.
+                            for (var i = 0; i < dotSplits.length; i++) {
+                                if (dotSplits[i].length == 0) {
+                                    return false;
+                                }
+                            }
+
+                            return true;
+                        };
+                        function ValidateEmail() {
+                            var email = document.getElementById("1").value;
+                            var lblError = document.getElementById("lblError");
+                            lblError.innerHTML = "";
+                            if (!IsValidEmail(email)) {
+                                lblError.innerHTML = "Invalid email address.";
+                            }
+                        }
+                    </script>
+                    <script>
+                        function isValidpassword(pass) {
+                            if (pass < 6)
+                                return false;
+                        }
+                        function ValidatePassword() {
+                            var pass = document.getElementById("3").value;
+                            var p = document.getElementById("2");
+                            if (!isValidpassword(pass)) {
+                                p.innerHTML = "Password must contains 6 fields.";
+                            }
+                        }
+                    </script>
+                    <script>
+                        function myfunction() {
+                            ValidatePassword();
+                            ValidateEmail();
+                        }
+                    </script>
+
+</body>
+
+</html>

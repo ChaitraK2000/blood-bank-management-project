@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blood donation</title>
+    <link rel="icon" href="images/giphy.gif">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/iconic/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" type="text/css" href="css/utils.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+
+</head>
+
+<body style="background-image:url(images/bg-02.jpg);height: 700px;width: 100%">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index"> Blood Donation <i class="icon-heart" aria-hidden="true"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item "><a href="index" class="nav-link">Home</a></li>
+                    <li class="nav-item ">
+                        <a href="info" class="nav-link"><span>INFO</span></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a href="admin" class="nav-link "><span>Admin login</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="patient" class="nav-link"><span>Patient login</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login" class="nav-link"><span>DonorLogin</span></a>
+                    </li>
+                    <li class="nav-item cta">
+                        <a href="register" class="nav-link"><span>DonorSignup</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container pt-5 prof mt-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+                <div class="profile-pic">
+                    <img class="img-fluid rounded-circle prof-img" src="images/profile3.jpg">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="py-3 wrap-login100 bg-white pcontainInnerHoriz">
+            <form class="login100-form validate-form bg-white" method="POST" action="/admin">
+
+                <span class="pb-5 pt-3 login100-form-title">
+                    ADMIN Sign In
+                </span>
+                <div class="wrap-input100 validate-input m-b-20" data-validate="Enter email">
+                    <input class="input100" type="text" name="email" placeholder=" Email" required>
+                    <span class="focus-input100"></span>
+                </div>
+                <div class="wrap-input100 validate-input m-b-25" data-validate="Enter password">
+                    <input class="input100" type="password" name="password" placeholder="Password" required>
+                    <span class="focus-input100"></span>
+                </div>
+                <!--End Inputs-->
+                <!--Remember Me and Forgot Me-->
+
+                <!--End Remember Me and Forgot Me-->
+                <!--Login Button-->
+                <div class="container-login100-form-btn pt-2">
+                    <button class="login100-form-btn btn" type="submit">
+                        Login
+                    </button>
+                </div>
+        </div>
+        <!--End Login with social media-->
+        </form>
+    </div>
+    </div>
+
+    <script>
+        var cw = $('.col-md-2').width();
+
+        $('prof-img').css({ 'height': cw + 'px', 'width': cw + 'px' });        
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+
+</body>
+
+</html>
